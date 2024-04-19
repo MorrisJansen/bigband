@@ -1,7 +1,7 @@
 {
   "name": "bigband-enterprise",
   "version": "0.1.0",
-  "hompage": "https://morrisjansen.github.io/bigband",
+  "homepage": "https://MorrisJansen.github.io/bigband",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
