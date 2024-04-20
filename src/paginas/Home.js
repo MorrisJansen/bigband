@@ -36,7 +36,7 @@ function Home() {
       <div className="thuisscherm-inhoud">
         <div className="foto-container">
           <h1 className={`foto-heading text-center w-100`}>Welkom bij BigBand Enterprise</h1>
-          <img src='../fotos/homepageSlider.webp' alt='homepageSlider' className='homepageSlider' />
+          <img src='./homepageSlider.webp' alt='homepageSlider' className='homepageSlider' />
         </div>
       </div>
       <div className="tekst-container">
@@ -52,7 +52,7 @@ function Home() {
 
       </div>
       <div className='tweedeFoto'>
-        <img src='../fotos/homepageFoto.webp' alt='homepageFoto' className={`homepageFoto ${showText ? 'active' : ''}`} />
+        <img src='\public/fotos/homepageFoto.webp' alt='homepageFoto' className={`homepageFoto ${showText ? 'active' : ''}`} />
       </div>
 
       <div className='data-container'>

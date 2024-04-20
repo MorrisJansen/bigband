@@ -145,7 +145,7 @@ function OverOns() {
               <img
                 src={lid.fotoUrl}
                 alt={lid.naam}
-                className={`rounded-circle ${lid.naam.toLowerCase().replace(' ', '-')}`} // Dynamische klasse gebaseerd op de naam van het lid
+                className={`rounded-circle ${lid.naam.toLowerCase().replace(' ', '-')}`}
               />
               <div className="lid-details">
                 <h3>{lid.naam}</h3>
