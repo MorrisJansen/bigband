@@ -52,7 +52,7 @@ function Home() {
 
       </div>
       <div className='tweedeFoto'>
-        <img src='./public/fotos/homepageFoto.webp' alt='homepageFoto' className={`homepageFoto ${showText ? 'active' : ''}`} />
+        <img src='./homepageFoto.webp' alt='homepageFoto' className={`homepageFoto ${showText ? 'active' : ''}`} />
       </div>
 
       <div className='data-container'>
