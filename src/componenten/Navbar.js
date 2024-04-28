@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
       <Link to="/" className="navbar-brand">
-        <img src="../fotos/logo.webp" alt="bigband logo" className="brand-logo" />
+        <img src="/fotos/logo.webp" alt="bigband logo" className="brand-logo" />
       </Link>
       <button
         className={`navbar-toggler hamburger-menu ${menuOpen ? 'open' : ''}`}
