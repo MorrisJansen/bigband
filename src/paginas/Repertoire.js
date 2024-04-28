@@ -57,7 +57,7 @@ function Repertoire() {
     <div className="repertoire-container">
       <div className="content">
         <div className="image-container">
-          <img src="../fotos/repertoire-foto-1.webp" alt="Beschrijvende tekst voor de afbeelding" />
+          <img src="./repertoire-foto-1.webp" alt="Beschrijvende tekst voor de afbeelding" />
         </div>
     {/* tweede container 2 met info */}
         <div className="info-container">
@@ -82,14 +82,14 @@ function Repertoire() {
         </div>
         {/* container 4 met foto */}
         <div className="image-container">
-          <img src="../fotos/repertoire-foto-2.webp" alt="Beschrijvende tekst voor de afbeelding" />
+          <img src="./repertoire-foto-2.webp" alt="Beschrijvende tekst voor de afbeelding" />
         </div>
       </div>
 
       {/* container 5 met foto */}
       <div id="repertoire" className="content">
         <div className="image-container">
-          <img src="../fotos/repertoire-foto-3.webp" alt="Beschrijvende tekst voor de afbeelding" />
+          <img src="./repertoire-foto-3.webp" alt="Beschrijvende tekst voor de afbeelding" />
         </div>
       </div>
 
@@ -120,14 +120,14 @@ function Repertoire() {
       {/* container 8 met foto */}
       <div className="content custom-container">
         <div className="image-container">
-          <img src="../fotos/repertoire-foto-4.webp" alt="Beschrijvende tekst voor de afbeelding" />
+          <img src="./repertoire-foto-4.webp" alt="Beschrijvende tekst voor de afbeelding" />
         </div>
       </div>
 
       {/* container 9 met foto */}
       <div className="content custom-container">
         <div className="image-container">
-          <img src="../fotos/repertoire-foto-5.webp" alt="Beschrijvende tekst voor de afbeelding" />
+          <img src="./repertoire-foto-5.webp" alt="Beschrijvende tekst voor de afbeelding" />
         </div>
       </div>
 

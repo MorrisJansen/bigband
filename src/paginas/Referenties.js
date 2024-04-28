@@ -41,7 +41,7 @@ function Referenties() {
         <p>Wij hebben al vele gelegenheden van muziek voorzien. Zo verzorgden wij o.a. optredens voor Doelencafé Rotterdam, Grand Café Metz in Dordrecht, Cultureel centrum Concordia in Haastrecht en de Grote Kerk te Schiedam. Ook speelden wij op de jazzfestivals van Middelburg, Delft, Rotterdam Charlois, Dordrecht, Enschede en Schiedam en voorzagen wij diverse privé feesten van muziek. En om niet te vergeten het grote dansfestijn "Meet and Dance" in Den Bosch.</p>
       </div>
       <div>
-        <img src='../fotos/referenties.webp' alt='referentieFoto'></img>
+        <img src='./referenties.webp' alt='referentieFoto'></img>
       </div>
     </div>
   );
