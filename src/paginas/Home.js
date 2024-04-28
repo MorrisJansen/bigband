@@ -17,15 +17,14 @@ function homeLogic(setShowText) {
 
 function Home() {
   const [showText, setShowText] = useState(false);
-  const [events, setEvents] = useState([]); // Definieer een staat voor evenementen en initialiseer deze met een lege array
+  const [events, setEvents] = useState([]); 
 
   useEffect(() => {
     const cleanup = homeLogic(setShowText);
 
-    // Haal evenementen op van de server wanneer de component mount
-    fetch('/api/events') // Zorg ervoor dat '/events' overeenkomt met de serverroute
+    fetch('/api/events')
       .then((response) => response.json())
-      .then((data) => setEvents(data)) // Sla de opgehaalde evenementen op in de staat
+      .then((data) => setEvents(data))
       .catch((error) => console.error('Error fetching events:', error));
 
     return cleanup;
@@ -36,7 +35,7 @@ function Home() {
       <div className="thuisscherm-inhoud">
         <div className="foto-container">
           <h1 className={`foto-heading text-center w-100`}>Welkom bij BigBand Enterprise</h1>
-          <img src='./homepageSlider.webp' alt='homepageSlider' className='homepageSlider' />
+          <img src='../public/fotos/homepageSlider.webp' alt='homepageSlider' className='homepageSlider' />
         </div>
       </div>
       <div className="tekst-container">
@@ -52,7 +51,7 @@ function Home() {
 
       </div>
       <div className='tweedeFoto'>
-        <img src='/public/fotos/homepageFoto.webp' alt='homepageFoto' className={`homepageFoto ${showText ? 'active' : ''}`} />
+        <img src='../public/fotos/homepageFoto.webp' alt='homepageFoto' className={`homepageFoto ${showText ? 'active' : ''}`} />
       </div>
 
       <div className='data-container'>
